@@ -1,3 +1,10 @@
+Database olarak json-data kullandım.
+Socket.io kullandım anlık veri erişimi için.
+Saf CSS tercihi için bootstrap-sweetalert kütüphanelerini kullanmadım
+Telefon görünümü için İphone XS kulladım.
+
+
+
 # Assesment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
