@@ -1,6 +1,6 @@
 Database olarak json-data kullandım.
 Socket.io kullandım anlık veri erişimi için.
-Saf CSS tercihi için bootstrap-sweetalert kütüphanelerini kullanmadım
+Saf CSS tercihi için bootstrap-sweetalert kütüphanelerini kullanmadım.
 Telefon görünümü için İphone XS kulladım.
 
 
