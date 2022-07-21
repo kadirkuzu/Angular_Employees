@@ -1,0 +1,59 @@
+<head><title>{{title}}</title></head>
+
+<body>
+<div class="container">
+  <div class="d-flex row">
+    <div class="d-flex column col-4" style="margin-top: 21px;align-items: end">
+      <button class="menuButton" (click)="menuService.changeColor('default')"> <h6 style="color:black;">Default Settings</h6></button>
+      <button class="menuButton" (click)="menuService.changeColor('black')" style="background-color: black">Make the menu black</button>
+      <button class="menuButton" (click)="menuService.changeColor('red')" style="background-color: red">Make the menu red</button>
+      <button class="menuButton" (click)="menuService.changeColor('green')" style="background-color: green">Make the menu green</button>
+      <button class="menuButton" (click)="menuService.changeColor('gray')" style="background-color: gray">Make the menu gray</button>
+      <button class="menuButton" (click)="menuService.changeColor('darkcyan')" style="background-color: darkcyan">Make the menu darkcyan</button>
+    </div>
+    <div class="d-flex column col-13" style="margin-top: 20px">
+      <h3 class="title">Employees's Information</h3>
+
+      <div>
+        <app-employee-datatable style="margin-top: 15px"></app-employee-datatable>
+
+        <div class="d-flex tableButtonList">
+          <button class="tableButton" (click)="employeeService.sortByName()">Sort By Name</button>
+          <button class="tableButton" (click)="employeeService.sortByDevelopFor()">Sort By Develop For</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="sideBar col-3"><h3 style="color: white">INFO</h3>
+        <div>
+          <h3>Number of employess: {{employeeService.findHowManyEmployee()}}</h3>
+          <br>
+          <h3>Number of front-end developer:{{employeeService.findHowManyWorkArea("front-end")}}</h3>
+          <br>
+          <h3>Number of back-end developer:{{employeeService.findHowManyWorkArea("back-end")}}</h3>
+
+        </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

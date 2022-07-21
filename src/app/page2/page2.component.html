@@ -1,0 +1,42 @@
+<head><title>{{title}}</title></head>
+<body>
+<div class="d-grid container">
+  <div class="d-grid menu">
+    <button class="menuButton" (click)="menuService.changeColor('default')"> <h6 style="color:black;">Default Settings</h6></button>
+    <button class="menuButton" (click)="menuService.changeColor('black')" style="background-color: black">Make the menu black</button>
+    <button class="menuButton" (click)="menuService.changeColor('red')" style="background-color: red">Make the menu red</button>
+    <button class="menuButton" (click)="menuService.changeColor('green')" style="background-color: green">Make the menu green</button>
+    <button class="menuButton" (click)="menuService.changeColor('gray')" style="background-color: gray">Make the menu gray</button>
+    <button class="menuButton" (click)="menuService.changeColor('darkcyan')" style="background-color: darkcyan">Make the menu darkcyan</button>
+  </div>
+  <div class="d-grid addMenu" style="margin-top: 20px">
+    <h3 class="title">Add Employee</h3>
+    <div>
+      <form autocomplete="off" [formGroup]="form" class="d-grid textForm" (change)="resetFalse()">
+        <input formControlName="name" class="textFormValue" placeholder="New Employee's Name" autofocus>
+        <input formControlName="surname" class="textFormValue" placeholder="New Employee's Surname">
+        <input formControlName="wage" class="textFormValue" type="number" placeholder="New Employee's Wage">
+        <input formControlName="workArea" class="textFormValue" placeholder="New Employee's Work Area">
+        <input formControlName="developFor" class="textFormValue" placeholder="New Employee Will Develop For">
+        <div class="d-grid buttonMenu">
+          <button class="tableButton selfButtonStart" [disabled]="form.invalid" (click)="addEmployee()"><h3>Submit</h3>
+          </button>
+          <button class="tableButton selfButtonEnd" [disabled]="reset" (click)="resetForm()"><h3>Reset</h3></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="sideBar" style="min-width: 15%"><h3 style="color: white">INFO</h3><br>
+  <div>
+    <h3>Number of employess: {{employeeService.findHowManyEmployee()}}</h3>
+    <br>
+    <h3>Number of front-end <br> developer:{{employeeService.findHowManyWorkArea("front-end")}}</h3>
+    <br>
+    <h3>Number of back-end <br> developer:{{employeeService.findHowManyWorkArea("back-end")}}</h3>
+
+  </div>
+</div>
+
+</body>

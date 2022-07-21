@@ -1,0 +1,132 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Kadir",
+      "surname": "kuzu",
+      "wage": 5500,
+      "workArea": "front-end",
+      "developFor": "angular"
+    },
+    {
+      "id": 2,
+      "name": "Hamide",
+      "surname": "Kuzu",
+      "wage": 4200,
+      "workArea": "back-end",
+      "developFor": "node.js"
+    },
+    {
+      "id": 3,
+      "name": "Berkay",
+      "surname": "Toprak",
+      "wage": 5100,
+      "workArea": "back-end",
+      "developFor": "python"
+    },
+    {
+      "id": 4,
+      "name": "Mazhar",
+      "surname": "Çelebi",
+      "wage": 3200,
+      "workArea": "front-end",
+      "developFor": "react"
+    },
+    {
+      "id": 5,
+      "name": "Kadir",
+      "surname": "kuzu",
+      "wage": 5500,
+      "workArea": "front-end",
+      "developFor": "angular"
+    },
+    {
+      "id": 6,
+      "name": "Hamide",
+      "surname": "Kuzu",
+      "wage": 4200,
+      "workArea": "back-end",
+      "developFor": "node.js"
+    },
+    {
+      "id": 7,
+      "name": "Berkay",
+      "surname": "Toprak",
+      "wage": 5100,
+      "workArea": "back-end",
+      "developFor": "python"
+    },
+    {
+      "id": 8,
+      "name": "Mazhar",
+      "surname": "Çelebi",
+      "wage": 3200,
+      "workArea": "front-end",
+      "developFor": "react"
+    },
+    {
+      "id": 9,
+      "name": "Kadir",
+      "surname": "kuzu",
+      "wage": 5500,
+      "workArea": "front-end",
+      "developFor": "angular"
+    },
+    {
+      "id": 10,
+      "name": "Hamide",
+      "surname": "Kuzu",
+      "wage": 4200,
+      "workArea": "back-end",
+      "developFor": "node.js"
+    },
+    {
+      "id": 11,
+      "name": "Berkay",
+      "surname": "Toprak",
+      "wage": 5100,
+      "workArea": "back-end",
+      "developFor": "python"
+    },
+    {
+      "id": 12,
+      "name": "Mazhar",
+      "surname": "Çelebi",
+      "wage": 3200,
+      "workArea": "front-end",
+      "developFor": "react"
+    },
+    {
+      "id": 13,
+      "name": "Kadir",
+      "surname": "kuzu",
+      "wage": 5500,
+      "workArea": "front-end",
+      "developFor": "angular"
+    },
+    {
+      "id": 14,
+      "name": "Hamide",
+      "surname": "Kuzu",
+      "wage": 4200,
+      "workArea": "back-end",
+      "developFor": "node.js"
+    },
+    {
+      "id": 15,
+      "name": "Berkay",
+      "surname": "Toprak",
+      "wage": 5100,
+      "workArea": "back-end",
+      "developFor": "python"
+    },
+    {
+      "id": 16,
+      "name": "Mazhar",
+      "surname": "Çelebi",
+      "wage": 3200,
+      "workArea": "front-end",
+      "developFor": "react"
+    }
+  ]
+}

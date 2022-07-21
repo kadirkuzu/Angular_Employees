@@ -1,0 +1,20 @@
+<head><title>Databases</title></head>
+<div class="tableScroll-y tableScrollbar">
+  <table id="employees" class="employees">
+    <tr>
+      <th>Name</th>
+      <th>Surname</th>
+      <th>Wage</th>
+      <th>WorkArea</th>
+      <th>Develop For</th>
+    </tr>
+    <tr *ngFor="let employee of employeeService.employees|employeeFilter:filterTEXT">
+      <td>{{employee.name}}</td>
+      <td>{{employee.surname|uppercase}}</td>
+      <td>{{employee.wage}}</td>
+      <td>{{employee.workArea}}</td>
+      <td>{{employee.developFor}}</td>
+    </tr>
+  </table>
+</div>
+<input class="findEmployee" placeholder="Write name to find employee" [(ngModel)]="filterTEXT">
